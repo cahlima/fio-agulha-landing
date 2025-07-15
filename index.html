@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fio, Agulha e Lima | Ajustes a Domicílio</title>
+  <meta name="description" content="Conserto de roupas em Curitiba com atendimento a domicílio. Ajuste de calça, vestido de festa, terno e jaqueta de couro. Costureira com coleta e devolução.">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,6 +18,11 @@
       color: #fff;
       padding: 1.5rem;
       text-align: center;
+    }
+    header img {
+      max-height: 80px;
+      display: block;
+      margin: 0 auto 1rem;
     }
     header h1 {
       margin: 0;
@@ -55,6 +61,18 @@
       margin-right: 0.5rem;
       color: #4d7363;
     }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .galeria img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
     footer {
       text-align: center;
       font-size: 0.85rem;
@@ -77,12 +95,14 @@
 </head>
 <body>
   <header>
+    <img src="logo-fioagulha.png" alt="Logo Fio, Agulha e Lima">
     <h1>Fio, Agulha e Lima</h1>
     <p>Atelier de Ajustes e Reformas de Roupas</p>
   </header>
   <section>
-    <h2>Ajustes de roupas com coleta e entrega</h2>
-    <p>Oferecemos conforto e praticidade para você que quer ajustar suas roupas sem sair de casa. Buscamos, ajustamos e entregamos suas peças com carinho e profissionalismo.</p>
+    <h2>Conserto de roupas em Curitiba com atendimento domiciliar</h2>
+    <p>Realizamos <strong>conserto de roupas em Curitiba</strong>, incluindo <strong>ajuste de barras de calça</strong>, <strong>vestidos de festa</strong>, <strong>ternos</strong>, <strong>troca de zíper</strong> e <strong>conserto de jaqueta de couro</strong>. Também atuamos com <strong>customização</strong>, <strong>ampliação</strong> e <strong>redução de peças</strong>.</p>
+    <p>Atendemos no <strong>Park Shopping Boulevard</strong> ou com <strong>serviço de costureira a domicílio em Curitiba</strong>. Se você procura <em>costureira perto de mim</em>, com <strong>qualidade e praticidade</strong>, fale conosco. Revitalize seu guarda-roupa com excelência!</p>
     <div class="servicos">
       <h3>Serviços:</h3>
       <ul>
@@ -90,17 +110,29 @@
         <li>Troca de zíper</li>
         <li>Ajuste de vestidos de festa</li>
         <li>Ajuste de ternos e roupas sociais</li>
-       
+        <li>Customização de peças</li>
       </ul>
+    </div>
+    <div class="galeria">
+      <img src="ajuste1.jpg" alt="Antes e depois de ajuste de calça">
+      <img src="ajuste2.jpg" alt="Vestido ajustado sob medida">
+      <img src="ajuste3.jpg" alt="Costura feita em jaqueta de couro">
     </div>
   </section>
   <section class="cta">
     <h2>Agende agora pelo WhatsApp</h2>
-    <p>Entre em contato e marque sua visita:</p>
+    <p>Entre em contato e marque sua coleta:</p>
     <a href="https://wa.me/5541974013124" target="_blank">Falar no WhatsApp</a>
   </section>
   <footer>
-    <p>Atendimento em Curitiba  | Shopping Park Boulevard</p>
+    <p>Atendimento em Curitiba | Park Shopping Boulevard | Atendimento domiciliar personalizado</p>
   </footer>
+
+  <script>
+    // Simples alerta ao carregar a página
+    window.onload = function() {
+      console.log("Landing page carregada com sucesso.");
+    };
+  </script>
 </body>
 </html>
