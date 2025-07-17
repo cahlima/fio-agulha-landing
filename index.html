@@ -1,106 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fio, Agulha e Lima | Ajustes a Domicílio</title>
+  <meta name="description" content="Conserto de roupa em Curitiba com coleta e entrega. Ajustes, reformas, troca de zíper e muito mais. Qualidade, praticidade e atendimento profissional.">
+  <meta name="keywords" content="conserto de roupa, costureira a domicílio Curitiba, ajuste de vestido de festa, troca de zíper, costureira Curitiba, conserto de jaqueta de couro, atelier de costura, barra de calça, reforma de roupa, conserto de roupas em casa">
+  <meta name="author" content="Acácia Gestão e Estratégia Digital">
+  <title>Fio, Agulha e Lima | Atendimento Domiciliar</title>
+  <link rel="stylesheet" href="css/style.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f5f0;
-      color: #2f3e3e;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #4d7363;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-    section {
-      padding: 1.5rem;
-      max-width: 100%;
-      margin: auto;
-    }
-    h2 {
-      font-size: 1.3rem;
-    }
-    .cta {
-      background-color: #e8ded3;
-      padding: 1.5rem;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .cta a {
-      background-color: #4d7363;
-      color: #fff;
-      padding: 0.9rem 1.8rem;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 1.1rem;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .servicos ul {
-      list-style: none;
-      padding: 0;
-    }
-    .servicos li::before {
-      content: "\2713";
-      margin-right: 0.5rem;
-      color: #4d7363;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.85rem;
-      padding: 1rem;
-      background-color: #ddd;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.3rem;
-      }
-      h2 {
-        font-size: 1.1rem;
-      }
-      .cta a {
-        font-size: 1rem;
-        padding: 0.8rem 1.5rem;
-      }
-    }
+    html { scroll-behavior: smooth; }
+    p { margin-bottom: 1rem; }
+    .section-image { max-width: 600px; width: 100%; height: auto; margin: 1rem auto; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Fio, Agulha e Lima</h1>
-    <p>Atelier de Ajustes e Reformas de Roupas</p>
-  </header>
-  <section>
-    <h2>Ajustes de roupas com coleta e entrega</h2>
-    <p>Oferecemos conforto e praticidade para você que quer ajustar suas roupas sem sair de casa. Buscamos, ajustamos e entregamos suas peças com carinho e profissionalismo.</p>
-    <div class="servicos">
-      <h3>Serviços:</h3>
+  <header class="site-header">
+    <div class="banner"></div>
+    <img src="imagens/LogoFioM.png" alt="Logo Fio, Agulha e Lima" class="logo">
+    <nav class="main-nav">
       <ul>
-        <li>Barras e bainhas</li>
-        <li>Troca de zíper</li>
-        <li>Ajuste de vestidos de festa</li>
-        <li>Ajuste de ternos e roupas sociais</li>
-       
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quem-somos">Quem Somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="mailto:contato@fioagulhaelima.com">Contato</a></li>
       </ul>
-    </div>
-  </section>
-  <section class="cta">
-    <h2>Agende agora pelo WhatsApp</h2>
-    <p>Entre em contato e marque sua visita:</p>
-    <a href="https://wa.me/5541974013124" target="_blank">Falar no WhatsApp</a>
-  </section>
-  <footer>
-    <p>Atendimento em Curitiba  | Shopping Park Boulevard</p>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home-intro">
+      <h1>Conserto de Roupa em Curitiba</h1>
+      <p>Atendimento com coleta e entrega — comodidade e qualidade para suas roupas.</p>
+      <a href="#servicos" class="btn">Conheça nossos serviços</a>
+    </section>
+
+    <section id="quem-somos" class="section">
+      <h2>Quem Somos</h2>
+      <p>Somos o <strong>Fio, Agulha e Lima</strong>, um atelier especializado em ajustes e reformas de roupas. Com atendimento domiciliar em Curitiba e ateliê no Park Shopping Boulevard, nosso foco é entregar qualidade, confiança e exclusividade em cada peça.</p>
+      <img src="imagens/maquina-costura.jpg" alt="Nossa equipe trabalhando" class="section-image">
+    </section>
+
+    <section id="servicos" class="section">
+      <h2>Serviços</h2>
+      <ul class="services-list">
+        <li>Ajuste de barras (calça, vestido, saia, terno)</li>
+        <li>Troca de zíper (jeans, jaquetas, bolsas)</li>
+        <li>Reforma de vestidos de festa e roupas sociais</li>
+        <li>Conserto de jaquetas de couro</li>
+        <li>Customização e ajustes sob medida</li>
+      </ul>
+      <img src="imagens/conserto-jaqueta.png" alt="Conserto de jaqueta de couro" class="section-image">
+    </section>
+
+    <section id="localizacao" class="section">
+      <h2>Localização</h2>
+      <p>Nosso ateliê está no <strong>Park Shopping Boulevard</strong> – BR-116, nº 16303, Xaxim, Curitiba – PR. Atendemos toda a cidade com serviço de coleta e entrega.</p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Park%20Shopping%20Boulevard%2C%20Curitiba&output=embed" width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- Seção de Lojas -->
+    <section id="lojas" class="section lojas">
+      <h2>Lojas</h2>
+      <div class="loja">
+        <img src="imagens/loja-boulevard.jpg" alt="Park Shopping Boulevard" class="section-image">
+        <h3>Park Shopping Boulevard</h3>
+        <p>BR-116, nº 16303<br>Xaxim, Curitiba – PR<br>CEP 81690-300</p>
+        <p><strong>Horário de atendimento:</strong><br>Seg a Sáb: 11h às 22h<br>Dom: 14h às 20h</p>
+        <a href="https://wa.me/5541974013124" class="btn">Falar no WhatsApp</a>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Fio, Agulha e Lima – Atelier de Ajustes e Reformas de Roupas</p>
   </footer>
 </body>
 </html>
